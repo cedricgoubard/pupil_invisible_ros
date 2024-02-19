@@ -1,8 +1,9 @@
 <launch>
     <!-- Launch the driver -->
     <node name="pupil_driver" pkg="pupil_invisible_ros" type="InvisibleDriver.py" output="screen">
-        <param name="rate" value="30"/>
-        <param name="stream_image" value="true"/>
+        <param name="rate" value="5"/>
+        <param name="stream_img" value="true"/>
+        <param name="phone_ip" value="10.0.3.12"/>
     </node>
 
 </launch>
